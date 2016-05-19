@@ -1,0 +1,314 @@
+/*
+Theme Name: Zimpbox
+Theme URI: http://zimpbox.com/
+Author: Daniel Lima
+Author URI: http://zimpbox.com
+Description: Site da Zimpbox Marketing Digital Inteligente.
+Tags: agência, caixa, zimpbox, marketing, marketing digital, digital, marketing digital vale do paraíba, marketing digital taubaté, sites, sites taubaté, sites vale do paraíba, melhor site
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: zimpbox
+*/
+
+h1, h2, h3, h4, h5, h6 {
+  display: block;
+  clear: both;
+}
+.cont-content h1, .cont-content h2, .cont-content h3, .cont-content h4, .cont-content h5, .cont-content h6{
+  padding: 5px 0;
+  line-height: 1.5em;
+}
+.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+.aligncenter,
+div.aligncenter {
+    display: block;
+    margin: 5px auto 5px auto;
+}
+
+.alignright {
+    float:right;
+    margin: 5px 0 20px 20px;
+}
+
+.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+
+a img.alignright {
+    float: right;
+    margin: 5px 0 20px 20px;
+}
+
+a img.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+a img.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+
+a img.aligncenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.wp-caption {
+    background: #fff;
+    border: 1px solid #f0f0f0;
+    max-width: 96%; /* Image does not overflow the content area */
+    padding: 5px 3px 10px;
+    text-align: center;
+}
+
+.wp-caption.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignleft {
+    margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignright {
+    margin: 5px 0 20px 20px;
+}
+
+.wp-caption img {
+    border: 0 none;
+    height: auto;
+    margin: 0;
+    max-width: 98.5%;
+    padding: 0;
+    width: auto;
+}
+
+.wp-caption p.wp-caption-text {
+    font-size: 11px;
+    line-height: 17px;
+    margin: 0;
+    padding: 0 4px 5px;
+}
+
+/* Text meant only for screen readers. */
+.screen-reader-text {
+  clip: rect(1px, 1px, 1px, 1px);
+  position: absolute !important;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+}
+
+.screen-reader-text:focus {
+  background-color: #f1f1f1;
+  border-radius: 3px;
+  box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+  clip: auto !important;
+  color: #21759b;
+  display: block;
+  font-size: 14px;
+  font-size: 0.875rem;
+  font-weight: bold;
+  height: auto;
+  left: 5px;
+  line-height: normal;
+  padding: 15px 23px 14px;
+  text-decoration: none;
+  top: 5px;
+  width: auto;
+  z-index: 100000; /* Above WP toolbar. */
+}
+
+/* WordPress Gallery
+------------------------------------------ */
+
+.gallery {
+  margin-left: -0.5em;
+  margin-right: -0.5em;
+}
+
+.gallery:after {
+  display: table;
+  content: "";
+  clear: both;
+}
+
+.gallery-item {
+  margin: 0;
+  float: left;
+  padding: 0.5em;
+}
+
+.gallery-item img {
+  width: 100%;
+}
+
+.gallery-columns-1 .gallery-item {
+    width: 100%;
+    float: none;
+}
+.gallery-columns-2 .gallery-item {
+    width: 50%
+}
+.gallery-columns-3 .gallery-item {
+    width: 33.3333%
+}
+.gallery-columns-4 .gallery-item {
+    width: 25%
+}
+.gallery-columns-5 .gallery-item {
+    width: 20%
+}
+.gallery-columns-6 .gallery-item {
+    width: 16.6667%
+}
+.gallery-columns-7 .gallery-item {
+    width: 14.2857%
+}
+.gallery-columns-8 .gallery-item {
+    width: 12.5%
+}
+.gallery-columns-9 .gallery-item {
+    width: 11.1111%
+}
+
+.gallery-columns-2 .gallery-item:nth-child(2n+1),
+.gallery-columns-3 .gallery-item:nth-child(3n+1),
+.gallery-columns-4 .gallery-item:nth-child(4n+1),
+.gallery-columns-5 .gallery-item:nth-child(5n+1),
+.gallery-columns-6 .gallery-item:nth-child(6n+1),
+.gallery-columns-7 .gallery-item:nth-child(7n+1),
+.gallery-columns-8 .gallery-item:nth-child(8n+1),
+.gallery-columns-9 .gallery-item:nth-child(9n+1) {
+  clear: left;
+}
+
+/* =BLOG CSS
+-------------------------------------------------------------- */
+.single article a{color:#DFA240;}
+.single article a:hover{color:#9C9C9C;}
+.sticky {border-top: 1px solid #DFA240;border-bottom: 3px solid #DFA240;}
+#reply-title{padding: 30px 0px; position: relative; float: left; font-size: 16px; letter-spacing: 2px; color: #262626; font-weight: 700; line-height: 21px;}
+
+/*Sidebar*/
+#tertiary{font-size:1.4em; margin: 20px 0;}
+#tertiary .element {margin-bottom: 20px;}
+#tertiary h5 {
+  font-weight: 600;
+  letter-spacing: 0;
+  padding: 10px 0;
+}
+#tertiary input[type=search]{
+  margin: 0;
+  padding: 6px 5px;
+  vertical-align: middle;
+  border: 1px solid #DFDFDF;
+  font-weight: 400;
+}
+#tertiary #searchsubmit{
+  position: absolute;
+  width: 27%;
+  top: 0;
+  right: 0;
+  height:100%;
+}
+input[type=submit]{
+  background: #262626;
+  float: none;
+  display: inline-block;
+  color: #fff;
+  font-size: 1.1em;
+  font-weight: 600;
+  text-transform: lowercase;
+  padding: 6px;
+  box-sizing: border-box;
+  margin: 0;
+  vertical-align: middle;
+  border: none;
+  outline: none;
+  transition: all 0.3s ease-in;
+  -moz-transition: all 0.3s ease-in;
+  -o-transition: all 0.3s ease-in;
+  -webkit-transition: all 0.3s ease-in;
+  -ms-transition: all 0.3s ease-in;
+}
+input[type=submit]:hover{background: #DFA240;}
+input[type=password] {
+  padding: 4px;
+  vertical-align: middle;
+}
+#tertiary a{
+  color:#DFA240;
+  transition: all 0.3s ease-in;
+  -moz-transition: all 0.3s ease-in;
+  -o-transition: all 0.3s ease-in;
+  -webkit-transition: all 0.3s ease-in;
+  -ms-transition: all 0.3s ease-in;
+}
+#tertiary a:hover{color:#9C9C9C;}
+.widget_rss li {padding: 10px 0;}
+.widget_rss span.rss-date {font-size: 0.9em; color: #9C9C9C;}
+.widget_rss .rssSummary {padding: 5px 0;}
+.widget_tag_cloud a {padding: 0 10px; margin: 5px; display: inline-block;}
+#calendar_wrap table {width: 100%;}
+#calendar_wrap table th {text-align: center;}
+#calendar_wrap table td {border: 1px solid #9C9C9C; text-align: center;}
+.widget_categories select {padding: 5px 10px; width: 100%;}
+.nav-links {text-align: center;}
+.nav-links a, .nav-links span {
+  font-size: 1.4em;
+  font-weight: 600;
+  padding: 3px 5px;
+  margin: 0 5px;
+}
+.nav-links span{color:#DFA240;}
+iframe, embed{max-width:100%;}
+.post-nav a {padding: 2px 6px;margin: 0 2px;}
+.post-nav span {margin-right: 5px;}
+.post-nav {padding: 10px; font-size: 1.3em; color: #696969;}
+.news-text p img {max-width: 100%; height: auto;}
+.post-meta {margin-top: 20px;}
+article ul {list-style: initial;margin-left: 30px;}
+.bypostauthor{position: relative;}
+.gallery-caption {position: relative; text-align: center;}
+.cont-content table{width:100%; margin:20px 0;}
+.cont-content table td{border:1px solid #9C9C9C; padding:6px;}
+#comments h5, .comments-list{
+  display: block;
+  clear: both;
+  width: 100%;
+  position: relative;
+}
+.depth-2.news-comments, .depth-3.news-comments, .depth-4.news-comments, .depth-5.news-comments, .depth-6.news-comments, .depth-7.news-comments{padding-right:0; border-top: 1px solid #DEDEDE;}
+.news-comments{margin:10px 0;}
+.alert.alert-info p {
+  position: relative;
+  padding: 0;
+  margin: 0;
+  float: none;
+}
+.alert.alert-info {
+  clear: both;
+  position: relative;
+  background: rgb(225, 225, 225);
+  border: none;
+}
+#comments input, #comments textarea {
+  width: 100%;
+  margin-bottom: 9px;
+  padding: 10px;
+  box-sizing: border-box;
+  font-size: 1.3em;
+}
+
+#comments input[type=submit]{width:auto;}
+body.search .hide-header-h4, body.blog .hide-header-h4, body.archive .hide-header-h4{display:none;}
+
+@media screen and (min-width: 768px) {
+  .blog-content {padding: 0;}
+}
